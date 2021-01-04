@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/title-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    font-family:'Eczar', serif;
+}
+
+h2, h3{
+    font-family:  'Montserrat', sans-serif;;
+}
+
+p,h5{
+    font-family:'Open Sans', sans-serif;;
+}
+
+.nav-item a{
+    color:#fff !important;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bolder;
+    font-size: xx-large !important;
+}
+
+.navbar-dark{
+    background-color: black !important;
+}
+
+
+
+
+.dropdown-menu a{
+    color: black !important;
+}
+
+
+
+.main-content {
+    padding-top: 15rem;
+    text-align: center;
+    color: #fff;
+}
+
+.logo{
+    height: 10rem;
+    width: auto;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.title{
+    color: #FFF;
+    font-weight: bolder;
+}
+
+.sub-title{
+    text-align: center;
+    
+}
+
+/* ABOUT */
+
+#about{
+    padding: 5%;
+    background-color: #d4e2d4; 
+   
+}
+
+
+
+.row-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+
+.col-aboutImg1{
+    background-image: url("../images/about\ image1.jpg");
+    background-size: cover;
+    height: 60vh;
+    width: auto;
+    background-repeat: no-repeat;
+    padding: 5%;
+    border-radius: 4%;
+}
+
+.col-aboutImg2{
+    background-image: url("../images/about\ img2.jpg");
+    background-size: cover;
+    height: 60vh;
+    width: auto;
+    background-repeat: no-repeat;
+    padding: 5%;
+    border-radius: 4%;
+}
+
+.content-about1{
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.content-about2{
+    padding-left: 12%;
+}
+
+.about-subtitle{
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+}
+
+/* SERVICES */
+
+.icon{
+    color: rgb(14, 158, 177);
+}
+
+#services{
+    padding: 5%;
+}
+
+.services-row{
+    padding: 7%;
+}
+
+.services-img{
+    padding: 5%;
+}
+
+/* REVIEWS */
+ 
+.w-100 {
+    width: 100% !important;
+    height: 90vh;
+  }
+
+
+/* CONTACT US */
+
+#contact{
+    padding: 5%;
+    background-color: #d4e2d4; 
+}
+
+.favicon{
+    padding: 2%;
+}
+
+
+.contactForm .Inputbox input{
+    width: 40%;
+    padding: 5px 0;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .Inputbox input[type="submit"]{
+    width: 100px;
+    background-color: #1177a3;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 7px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 2%;
+}
+
+.hmfr-linkedin-icon{
+    color:  #0e76a8;
+}
+
+.hmfr-fb-icon{
+color:	#4267B2;
+}
+
+.fab-icons {
+    padding:1%;
+}
+
+.devs-icon{
+    color: white;
+}
+
+#developerInfo{
+    text-align: center;
+    padding: 0.5%;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
